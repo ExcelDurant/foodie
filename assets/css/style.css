@@ -255,6 +255,13 @@ ABOUT SECTION
     bottom: 10%;
 }
 
+
+/*
+***********
+HOW IT WORKS SECTION
+***********
+*/
+
 .how-sec {
     width: 100%;
     min-height: 800px;
@@ -267,7 +274,7 @@ ABOUT SECTION
 
 .how-grid {
     width: 70%;
-    height: 380px;
+    min-height: 380px;
     margin: 80px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -293,4 +300,37 @@ ABOUT SECTION
 .how-grid-txt {
     color: #717171;
     font-size: 17px;
+}
+
+
+/*
+***********
+MENU SECTION
+***********
+*/
+
+
+.menu-sec {
+    width: 100%;
+    min-height: 700px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.menu-grid {
+    width: 80%;
+    height: 500px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+}
+
+.menu-container {
+    border: 1px solid black;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    display: grid;
+    grid-template-rows: 4fr 5fr;
+    overflow: hidden;
 }
