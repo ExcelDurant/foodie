@@ -96,9 +96,9 @@ HEADER SECTION
     padding: 12px 29px;
 }
 
-.navlinks:hover {
+/* .navlinks:hover {
     border-bottom: 2px solid #FF9F0D;
-}
+} */
 
 .icon-link:hover {
     border-bottom: 0;
@@ -476,6 +476,7 @@ footer {
     margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
 }
 
 footer ul {
