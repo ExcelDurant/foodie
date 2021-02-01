@@ -1,0 +1,119 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/Book/assets/css/book.css">
+    <title>Booking</title>
+</head>
+
+<body>
+    <div class="navbar">
+
+        <h1 class="logo-title">F🍲🍲die</h1>
+        <ul>
+            <li><a href="/index.html" class="navlinks">Home</a></li>
+            <li><a href="" class="navlinks">Menu</a></li>
+            <li><a href="" class="navlinks">About Us</a></li>
+            <li><a href="" class="navlinks icon-link"><img src="/assets/images/shop-removebg-preview.png" alt=""
+                        class="navbar-icon"></a></li>
+            <li><a href="/Book/book.html" class="navlinks book-link">Booking Now</a></li>
+        </ul>
+    </div>
+    <!-- BOOKING SECTION -->
+    <div class="main">
+        <div class="contact-Us">
+            <h2>BOOK NOW</h2>
+            <p>Fill in the form below for reservations/other enquiries!</p>
+            <form action="/Book/thanks.html" method="get">
+                <fieldset>
+                    <div class="center">
+                        <label>
+                            Name
+                            <input class="details" type="text" name="name" placeholder="Full Name" required>
+                        </label>
+                        <label>
+                            Email
+                            <input class="details" type="text" name="email" placeholder="Enter valid email address....."
+                                required>
+                        </label>
+                        <label>
+                            Phone
+                            <input class="details" type="text" name="telephone" placeholder="237-000-000000"
+                                pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{6})>
+                        </label>
+                        <div class="element-group adchild">
+                            <label for="adult">Adults</label>
+                            <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+                        </div>
+                        <div class="element-group adchild">
+                            <label for="child">Children</label>
+                            <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+                        </div>
+                        <h5>Anything else?</h5>
+                        <textarea name="message" cols="40" rows="5"
+                            placeholder="Type here...specify desired reservation date and time"></textarea>
+                        <label>
+                            How would you like us to contact you?
+                            <input class="check" type="checkbox" name="contact" value="Phone">Phone
+                            <input class="check" type="checkbox" name="email">Email
+                        </label>
+                        <button class="check" type="submit">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="footer-navbar navbar">
+            <h1 class="logo-title">F🍲🍲die</h1>
+            <ul>
+                <li><a href="" class="footer-links navlinks">Home</a></li>
+                <li><a href="" class="footer-links navlinks">Menu</a></li>
+                <li><a href="" class="footer-links navlinks">About Us</a></li>
+                <li><a href="" class="footer-links navlinks">Booking Now</a></li>
+            </ul>
+        </div>
+        <div class="footer-sec">
+            <div class="footer-icons">
+                <a href="" class="footer-icon-link">
+                    <div class="icon-container"><img src="/assets/images/face-removebg-preview.png" alt=""
+                            class="full-img"></div>
+                </a>
+                <a href="" class="footer-icon-link">
+                    <div class="icon-container"><img src="/assets/images/youtube-icon-orange.png" alt=""
+                            class="full-img"></div>
+                </a>
+                <a href="" class="footer-icon-link">
+                    <div class="icon-container"><img src="/assets/images/inst.png" alt="" class="full-img"></div>
+                </a>
+                <a href="" class="footer-icon-link">
+                    <div class="icon-container"><img src="/assets/images/twitter-icon-png-black-12.png" alt=""
+                            class="full-img"></div>
+                </a>
+            </div>
+            <div class="footer-info">
+                <ul class="col-1">
+                    <li><a href="" class="footer-info-link">Quality</a></li>
+                    <li><a href="" class="footer-info-link">Help</a></li>
+                    <li><a href="" class="footer-info-link">Share</a></li>
+                    <li><a href="" class="footer-info-link">Careers</a></li>
+                </ul>
+                <ul class="col-2">
+                    <li><a href="" class="footer-info-link">222-222-2222</a></li>
+                    <li><a href="" class="footer-info-link">hellow@food.com</a></li>
+                    <li><a href="" class="footer-info-link">press@food.com</a></li>
+                </ul>
+                <ul class="col-3">
+                    <li><a href="" class="footer-info-link">Terms & Conditions</a></li>
+                    <li><a href="" class="footer-info-link">Privacy Policy </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="/Book/assets/Javascript/thanks.js"></script>
+</body>
+
+</html>
