@@ -10,5 +10,4 @@ function countDown(){
         window.location.href = redirect; 
     }
 }
-countDown(); 
-
+countDown(); //calls the function
