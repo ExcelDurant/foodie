@@ -1,0 +1,157 @@
+/* <!--reset page--> */
+* {  
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(340deg, #ffffff 50%, #ffa600 50%);
+}
+/* Main container */
+.main {
+    background: url(/Book/assets/images/food2.png) no-repeat;
+    background-size: 600px 580px;
+    position: relative;
+    top: 0;
+    left: 0;
+    min-height: 95vh;
+}
+/* The booking box */
+.contact-Us {
+    background: linear-gradient(160deg, #ffffff 61%, #ffa600 39%);
+    width: 500px;
+    height: 480px;
+    margin: auto;
+    top: 0;
+    left: 20%;
+    padding-top: 0;
+    padding-left: 10px;
+    border-radius: 2%;
+    position: relative;
+    border: 1px solid #ff8800;
+    box-shadow: 2px 3px #0202023b;
+    overflow: hidden;
+}
+/* Styling the fonts */
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    color: #080808;
+    align-self: center;
+    text-shadow: 1px 2px #1b160be7;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(133, 97, 0);
+}
+/* Styling the form */
+form, fieldset {
+    margin-bottom: 16px;
+}
+
+input, textarea {
+    font: 300 12/24px monospace;
+    border: 1px solid #f5ad11;
+    border-radius: 3px;
+    display: block;
+    padding: 5px;
+    margin-top: 3px;
+}
+/* User details for form */
+.details {
+    width: 50%;
+}
+
+div.element-group {
+    margin: 20px 0;
+}
+
+div.element-group.adchild {
+    width: 10%;
+    display: inline-block;
+    margin-left: 3%;
+}
+
+div.element-group.adchild input {
+    width: 95%;
+    display: inline-block;
+}
+
+label {
+    color: #080808;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label .comment {
+    display: block;
+}
+
+.check {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.center {
+    margin-left: 30px;
+    padding-left: 30px;
+}
+/* Submit section   */
+button {
+    width: 100px;
+    padding: 8px;
+    display: inline-block;
+    margin-left: 50%;
+    border: 1px dotted brown;
+    background: #070200;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #f8b704;
+    color: #4b2502;
+}
+
+/* Thank You page */
+
+.thank {
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+
+.thank h1 {
+    font-size: 65px;
+    font-weight: 800;
+    font-family: 'Courgette', cursive;
+}
+
+.thank p {
+    color: rgb(68, 39, 1);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.thank h2 {
+    color: #ce820098;
+    text-shadow: #000000;
+    font-family: 'Cinzel', serif;
+}
+
+.thank h5 {
+    color: #c00505;
+}
